@@ -51,7 +51,7 @@ module.exports = {
   caption: process.env.CAPTION || "`TRASHBOT-V2™`",
   author: process.env.PACK_AUTHER || "TRASHBOT-V2",
   packname: process.env.PACK_NAME || "TRASHBOT",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
+  botname: process.env.BOT_NAME || "TRASHBOT-V2",
   ownername: process.env.OWNER_NAME || "iltrashdipalermo",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "6vn20v7z8qemgmxc61d1tmvqc9h4zxbwllan7dqyg35wjgrdmoki2m2g6v3uw7l2",
