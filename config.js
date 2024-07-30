@@ -11,7 +11,7 @@ global.location = "Abuja, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://iltrashdipalermo810:trashino123@trashbot.5hpmlba.mongodb.net/?retryWrites=true&w=majority&appName=trashbot";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.DATABASE_URL = process.env.DATABASE_URL || "";
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://iltrashdipalermo810:trashino123@trashbot.5hpmlba.mongodb.net/?retryWrites=true&w=majority&appName=trashbot";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/iltrashdipalermo96/Queen_Anita-V2";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
@@ -67,7 +67,7 @@ module.exports = {
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
-global.isMongodb = true;
+global.isMongodb = false;
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
   fs.unwatchFile(file);
