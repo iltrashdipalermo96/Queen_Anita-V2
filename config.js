@@ -8,12 +8,12 @@ global.port = process.env.PORT; 3000
 global.appUrl = process.env.APP_URL || "https://aesthetic-guglielma-trashino-51e855fc.koyeb.app/";
 global.email = "iltrashdipalermo9090@gmail.com";
 global.location = "Abuja, Nigeria";
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://iltrashdipalermo810:trashinobot123@trashbot.5hpmlba.mongodb.net/?retryWrites=true&w=majority&appName=trashbot";
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://iltrashdipalermo810:trashino123@trashbot.5hpmlba.mongodb.net/?retryWrites=true&w=majority&appName=trashbot";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/Queen_Anita-V2";
+global.github = process.env.GITHUB || "https://github.com/iltrashdipalermo96/Queen_Anita-V2";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
