@@ -4,8 +4,8 @@ if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 global.audio = "";
 global.video = "";
-global.port = process.env.PORT;
-global.appUrl = process.env.APP_URL || "";
+global.port = process.env.PORT; 3000
+global.appUrl = process.env.APP_URL || "https://aesthetic-guglielma-trashino-51e855fc.koyeb.app/";
 global.email = "iltrashdipalermo9090@gmail.com";
 global.location = "Abuja, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://iltrashdipalermo810:trashinobot123@trashbot.5hpmlba.mongodb.net/?retryWrites=true&w=majority&appName=trashbot";
@@ -67,7 +67,7 @@ module.exports = {
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
-global.isMongodb = false;
+global.isMongodb = true;
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
   fs.unwatchFile(file);
